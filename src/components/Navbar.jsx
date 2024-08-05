@@ -28,8 +28,11 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
+             <div className="logoInst"><Link to="/" className="navLink">
+                <img src="insta-logo.png" alt="" />
+               </Link>
+             </div>
             <ul className="navList">
-                <li className="logoInst"><Link to="/" className="navLink">Instagram</Link></li>
                 <li className="navItem"><Link to="/" className="navLink">Home</Link></li>
                 <li className="navItem"><Link to="/explore" className="navLink">Explore</Link></li>
                 <li className="navItem"><Link to="/messages" className="navLink">Messages</Link></li>
