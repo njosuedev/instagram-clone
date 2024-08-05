@@ -61,7 +61,7 @@ const Home = () => {
                     </div>
                     <div className="profileTopContainer">
                         <div className="imageContainer"></div>
-                        <div className="profileName">peter</div>
+                        <div className="profileName">measure</div>
                         <div className="switchBtn followBtn">
                             <a href="">Follow</a>
                         </div>
