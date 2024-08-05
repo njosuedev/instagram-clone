@@ -17,6 +17,8 @@ const Home = () => {
                 </div>
                 <div className="profilePostContainer">
                     <div className="postOne"></div>
+                    <div className="postOne"></div>
+                    <div className="postOne"></div>
                 </div>
             </div>
             <div className='rightAsideContainer'>

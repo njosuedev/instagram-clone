@@ -39,7 +39,7 @@
 }
 .profileTopContainer .switchBtn{
     margin-left: auto;
-    color: rgb(30, 30, 210);
+    color: rgb(91, 108, 235);
 }
 .profileTopContainer .profileName{
     font-weight: bold;
@@ -78,7 +78,7 @@
     gap: 10px;
 }
 .profileTopContainer .followBtn{
-    color: rgb(49, 49, 202);
+    color: rgb(91, 108, 235);
     font-size: 14px;
 }
 
@@ -92,11 +92,12 @@
 /* profile posts */
 
 .profilePostContainer{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 1.5rem;
+    gap: 1rem;
 }
 .profilePostContainer .postOne{
     width: 70%;
