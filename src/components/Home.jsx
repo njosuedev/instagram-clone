@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                     <div className='FollowersTitle'>
                         <div className='left'>
-                            suggested fo you
+                            Suggested fo you
                         </div>
                         <div className="right">
                             See All
@@ -75,7 +75,24 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="asideBottom">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos similique explicabo dolor minima laboriosam laborum fuga accusantium, fugit eum beatae totam. Provident amet fugit modi beatae ducimus vitae, porro ratione.
+                    <div className="footerOthers">
+                    <small>About</small>.
+                    <small>Help</small>.
+                    <small>Press</small>.
+                    <small>Api</small>.
+                    <small>Jobs</small>.
+                    <small>Privacy</small>.
+                    <small>Terms</small>.
+                    <small>Locations</small>.
+                    <small>Languae</small>.
+                    <small>Meta Verified</small>.
+                    <small>Terms</small>
+                    </div>
+                    <div className="footerCopyRight">
+                        <small>
+                            &copy; INSTAGRAM-CLONE BY N JOSUE
+                        </small>
+                    </div>
                 </div>
             </div>
         </div>

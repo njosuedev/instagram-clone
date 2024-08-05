@@ -67,6 +67,29 @@
     padding-left: 3rem;
 }
 
+.asideBottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #b1afaf;
+    cursor: default;
+}
+.asideBottom .footerOthers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+.asideBottom .footerOthers small{
+    font-size: 12px;
+}
+.footerOthers small:hover,
+.footerCopyRight small:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* profile story */
 
 .postContainer .profileStoryContainer{
