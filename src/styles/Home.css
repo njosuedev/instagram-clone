@@ -1,0 +1,110 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.Container .postContainer{
+    width: 50vw;
+    height: 50vw;
+}
+.Container .rightAsideContainer{
+    width: 30vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rightAsideContainer .asideTop{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.asideTop .profileTopContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+.profileTopContainer .imageContainer{
+    width: 4.1vw;
+    height: 4.1vw;
+    background-color: #333;
+    border-radius: 50%;
+}
+.profileTopContainer .switchBtn{
+    margin-left: auto;
+    color: rgb(30, 30, 210);
+}
+.profileTopContainer .profileName{
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+.asideTop .FollowersTitle{
+    display: flex;
+    gap: 4rem;
+    font-weight: bold;
+    font-size: 13px;
+    width: 100%;
+    padding-left: 3.5rem;
+    padding-right: 2rem;
+    
+}
+.FollowersTitle .left{
+    margin-right: auto;
+    color: #b5b5b5;
+}
+.FollowersTitle .followBtn:hover{
+    color: #eee;
+}
+
+.asideBottom{
+    padding-left: 3rem;
+}
+
+/* profile story */
+
+.postContainer .profileStoryContainer{
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.profileTopContainer .followBtn{
+    color: rgb(49, 49, 202);
+    font-size: 14px;
+}
+
+.profileStory{
+    width: 5vw;
+    height: 5vw;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+/* profile posts */
+
+.profilePostContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.profilePostContainer .postOne{
+    width: 70%;
+    height: 480px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+
+/* aside right style */
+
