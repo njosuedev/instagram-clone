@@ -6,8 +6,12 @@ const Home = () => {
         <div className='Container'>
             <div className='postContainer'>
                 <div className='profileStoryContainer'>
-                <div className="profileStory"></div>
-                <div className="profileStory"></div>
+                <div className="profileStory">
+                    <img className='imgStory' src="https://avatars.githubusercontent.com/u/149709646?v=4" />
+                </div>
+                <div className="profileStory">
+                 <img className='imgStory' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQU0j7Z-uWL6IHAhcpsUXcCZVkbxXnYTQbw&s" alt="Description" />
+                </div>
                 <div className="profileStory"></div>
                 <div className="profileStory"></div>
                 <div className="profileStory"></div>
