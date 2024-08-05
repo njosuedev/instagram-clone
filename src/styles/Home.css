@@ -47,11 +47,13 @@
 }
 .profileTopContainer .switchBtn{
     margin-left: auto;
-    color: rgb(91, 108, 235);
+    color: rgb(121, 134, 239);
 }
 .profileTopContainer .profileName{
     font-weight: bold;
     letter-spacing: 0.3px;
+    font-size: 15px;
+    color: #e8e5e5;
 }
 .asideTop .FollowersTitle{
     display: flex;

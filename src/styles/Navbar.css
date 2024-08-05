@@ -28,6 +28,9 @@
     cursor: default;
     margin-bottom: 2rem;
 }
+.logoIconInst{
+    width: 80%;
+}
 .navList .more{
     margin-top: auto;
 }
@@ -37,7 +40,7 @@
 .navLink {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* notifatication style */
