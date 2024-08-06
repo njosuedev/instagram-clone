@@ -44,6 +44,7 @@
     width: 3.5vw;
     height: 3.5vw;
     border-radius: 50%;
+    object-fit: cover;
 }
 .profileTopContainer .switchBtn{
     margin-left: auto;
@@ -237,7 +238,9 @@
 }
 .HeaderName{
     display: flex;
+    flex-direction: column;
     gap: 5px;
+    line-height: 15px;
     
 }
 .storyDetails{
