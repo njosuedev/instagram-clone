@@ -252,4 +252,8 @@
 .storyDetails small{
     color: #e8e4e4;
 }
+.otherMove{
+    display: flex;
+    flex-direction: column;
+}
 
