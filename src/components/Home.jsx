@@ -104,7 +104,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='postOneImage postFirt'>
-                        <video width="600" autoPlay>
+                        <video width="600" controls autoPlay muted>
                             <source src="./videos/video_1.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -204,7 +204,7 @@ const Home = () => {
                     </div>
                     <div className="footerCopyRight">
                         <small>
-                            &copy; INSTAGRAM-CLONE BY N JOSUE
+                            &copy; INSTAGRAM-CLONE BY N JOSUE DEV
                         </small>
                     </div>
                 </div>
