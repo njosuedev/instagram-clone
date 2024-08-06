@@ -37,8 +37,7 @@ const Navbar = () => {
                 <li className="navItem"><Link to="/explore" className="navLink">Explore</Link></li>
                 <li className="navItem"><Link to="/messages" className="navLink">Messages</Link></li>
                 <li className="navItem"><Link to="/profile" className="navLink">Profile</Link></li>
-                <li className="navItem"><Link to="/profile" className="navLink">Profile</Link></li>
-
+                
                 {/* notification */}
 
                 <li className="navItem navIcon">
