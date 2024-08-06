@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
              <div className="logoInst"><Link to="/" className="navLink">
-                <img className='logoIconInst' src="insta-logo.png" alt="" />
+                <img className='logoIconInst' src="./images/insta-logo.png" alt="" />
                </Link>
              </div>
             <ul className="navList">
