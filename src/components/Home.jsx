@@ -104,7 +104,10 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='postOneImage postFirt'>
-                            <video  src="./videos/video_1.mp4" autoPlay></video>
+                        <video width="600" autoPlay>
+                            <source src="./videos/video_1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                         </div>
                         <div className='PostOneReaction'></div>
                         <div className="postOneDescription"></div>
